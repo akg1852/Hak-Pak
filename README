@@ -1,0 +1,11 @@
+  Hak Pak by Adam Gray 2013.
+  
+  Based on the Pac-Man Dossier [http://home.comcast.net/~jpittman2/pacman/pacmandossier.html], with a few modifications:
+     * A simplified aesthetic design, and no annoying sounds!
+     * Ghosts' pathfinding is done for the current tile, rather than the next one.
+     * When the ghosts enter frightened mode, the scatter/chase timer is not paused.
+     * The frightened pathfinding PRNG doesn't get reset with the same intial seed each time.
+     * Speed is controlled probabilistically.
+     * Ghosts always move left when leaving the ghost-house.
+     * There are no zones where ghosts are forbidden to make upward turns.
+     * Pinky and Inky's targeting methods don't include the bug present in the original game.
